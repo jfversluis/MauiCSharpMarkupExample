@@ -14,4 +14,9 @@
         Title="Hello, World from C#!"
         ContentTemplate="{DataTemplate local:MainPageCSharp}"
         Route="MainPageCSharp" />
+
+    <ShellContent
+        Title="Hello, World from C# Markup!"
+        ContentTemplate="{DataTemplate local:MainPageCSharpMarkup}"
+        Route="MainPageCSharpMarkup" />
 </Shell>

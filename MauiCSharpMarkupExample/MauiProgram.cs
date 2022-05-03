@@ -1,4 +1,6 @@
-﻿namespace MauiCSharpMarkupExample;
+﻿using CommunityToolkit.Maui.Markup;
+
+namespace MauiCSharpMarkupExample;
 
 public static class MauiProgram
 {
@@ -7,6 +9,7 @@ public static class MauiProgram
 		var builder = MauiApp.CreateBuilder();
 		builder
 			.UseMauiApp<App>()
+			.UseMauiCommunityToolkitMarkup()
 			.ConfigureFonts(fonts =>
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
