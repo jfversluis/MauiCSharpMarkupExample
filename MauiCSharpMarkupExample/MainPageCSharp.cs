@@ -17,7 +17,7 @@ public class MainPageCSharp : ContentPage
 
         var helloWorldLabel = new Label
         {
-            Text = "Hello, World!1",
+            Text = "Hello, World from C#!",
             FontSize = 32,
             HorizontalOptions = LayoutOptions.Center,
         };
